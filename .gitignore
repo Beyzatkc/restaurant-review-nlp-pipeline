@@ -1,0 +1,16 @@
+# Python / PyCharm
+__pycache__/
+.pytest_cache/
+.idea/
+*.pyc
+.env
+
+# Data (Veri dosyaları GitHub'a pushlanmaz)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Sanal Ortam (Virtual Environment)
+venv/
+.venv/
