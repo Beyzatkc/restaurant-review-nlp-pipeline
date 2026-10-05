@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 
 
 class ProcessedDataTester:
-    def __init__(self, data_path: str = config.PROCESSED_DATA_PATH):
+    def __init__(self, data_path: str = config.PROCESSED2_DATA_PATH):
         self.data_path = data_path
 
 
@@ -33,7 +33,7 @@ class ProcessedDataTester:
         print(f"\n--- RASTGELE {n} ÖRNEK ---")
         print(sample_df[available_columns])
 
-    def run_test(self, sample_size: int = 10) -> None:
+    def run_test(self, sample_size: int = 100) -> None:
         try:
             df = self.load_data()
             self.show_summary(df)
