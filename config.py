@@ -12,3 +12,4 @@ TEXT_COLUMN = "review_text"  # Filtrelemek istediğiniz yorumların bulunduğu s
 
 # Dil filtresi parametreleri
 TARGET_LANGUAGE = "tr"
+
