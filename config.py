@@ -7,6 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 RAW_DATA_PATH = BASE_DIR / "data" / "raw" / "restoran_kafe_verisi.parquet"
 PROCESSED_DATA_PATH = BASE_DIR / "data" / "processed" / "cleaned_reviews.parquet"
 PROCESSED2_DATA_PATH = BASE_DIR / "data" / "processed" / "curated_reviews.parquet"
+PROCESSED3_DATA_PATH = BASE_DIR / "data" / "model_input" / "llm_ready_contexts.parquet"
 
 # Veri seti sütun ismi (Verinizdeki yorum sütununun adı neyse onu yazmalısınız)
 TEXT_COLUMN = "review_text"  # Filtrelemek istediğiniz yorumların bulunduğu sütun adı

@@ -5,4 +5,4 @@ if __name__ == "__main__":
     tester = ProcessedDataTester()
 
     # 10 rastgele satır ile testi çalıştır
-    tester.run_test(sample_size=1000)
+    tester.run_test(sample_size=10)
