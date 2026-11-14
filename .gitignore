@@ -12,6 +12,9 @@ data/model_input/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Güvenlik / API Anahtarları
+.env
+
 # Sanal Ortam (Virtual Environment)
 venv/
 .venv/
